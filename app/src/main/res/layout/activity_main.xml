@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.telran.implicitintents.MainActivity">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Send first action"
+        android:textAllCaps="false"
+        android:id="@+id/send_first_btn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send second action"
+        android:textAllCaps="false"
+        android:id="@+id/send_second_btn"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/send_first_btn"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
