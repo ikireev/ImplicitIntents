@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intent1 = new Intent("telran.com.third.activity");
                 startActivity(intent1);
                 break;
+            //Testing Github
         }
     }
 }
